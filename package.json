@@ -1,0 +1,19 @@
+{
+  "name": "playwright_playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "fixter-services-parallel-list": "npx playwright test fixter.mot.spec.ts --workers=8 --project=chromium --reporter=list"
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.14.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
